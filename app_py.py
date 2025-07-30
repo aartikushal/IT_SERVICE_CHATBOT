@@ -9,7 +9,7 @@ Original file is located at
 
 import openai
 
-!pip install streamlit openai
+import streamlit as st
 
 openai.api_key = ''
 
