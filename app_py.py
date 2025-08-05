@@ -11,7 +11,8 @@ import openai
 
 import streamlit as st
 
-openai.api_key = ''
+#openai.api_key = ''
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 import pickle
 
