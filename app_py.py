@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import openai
-
+import os
 import streamlit as st
 
 #openai.api_key = ''
