@@ -24,7 +24,7 @@ it_faq_data = {
 with open("it_service_chatbot.pkl", "wb") as f:
     pickle.dump(it_faq_data, f)
 
-with open("it_faq.pkl", "rb") as f:
+with open("it_service_chatbot.pkl", "rb") as f:
     faq = pickle.load(f)
 
 import streamlit as st
