@@ -21,7 +21,7 @@ it_faq_data = {
     "network_issue": "Check cables or Wi-Fi...",
 }
 
-with open("it_faq.pkl", "wb") as f:
+with open("it_service_chatbot.pkl", "wb") as f:
     pickle.dump(it_faq_data, f)
 
 with open("it_faq.pkl", "rb") as f:
