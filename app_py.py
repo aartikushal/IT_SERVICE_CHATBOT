@@ -96,7 +96,7 @@ if user_input:
         # 2. Use OpenAI
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
-            messages=conversation_history,
+            messages=st.session_state.conversation_history,
             temperature=0.6,
             max_tokens=200
         )
